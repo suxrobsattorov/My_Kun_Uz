@@ -1,13 +1,11 @@
 package com.company.spec;
 
-import com.company.entity.CommentEntity;
 import com.company.entity.ProfileEntity;
 import org.springframework.data.jpa.domain.Specification;
 
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;
-import java.util.Objects;
 
 public class ProfileSpecification {
 

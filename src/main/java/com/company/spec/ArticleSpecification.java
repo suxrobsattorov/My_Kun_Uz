@@ -4,9 +4,6 @@ import com.company.entity.ArticleEntity;
 import com.company.enums.ArticleStatus;
 import org.springframework.data.jpa.domain.Specification;
 
-import javax.persistence.criteria.Expression;
-import javax.persistence.criteria.Path;
-import java.io.Serializable;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.LocalTime;

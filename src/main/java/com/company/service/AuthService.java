@@ -1,9 +1,9 @@
 package com.company.service;
 
+import com.company.dto.MessageDTO;
 import com.company.dto.ProfileDTO;
 import com.company.dto.RegistrationDTO;
 import com.company.dto.auth.AuthorizationDTO;
-import com.company.dto.MessageDTO;
 import com.company.entity.MessageEntity;
 import com.company.entity.ProfileEntity;
 import com.company.enums.ProfileStatus;

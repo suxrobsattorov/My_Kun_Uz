@@ -2,7 +2,6 @@ package com.company.entity;
 
 import lombok.Getter;
 import lombok.Setter;
-import org.yaml.snakeyaml.events.Event;
 
 import javax.persistence.*;
 import java.time.LocalDateTime;

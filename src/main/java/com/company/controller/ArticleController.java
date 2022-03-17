@@ -1,7 +1,6 @@
 package com.company.controller;
 
 import com.company.dto.ArticleDTO;
-import com.company.dto.ProfileDTO;
 import com.company.dto.ProfileJwtDTO;
 import com.company.dto.filterDTO.ArticleFilterDTO;
 import com.company.enums.Role;
@@ -10,11 +9,7 @@ import com.company.service.ProfileService;
 import com.company.util.JwtUtil;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
-import io.swagger.annotations.ApiResponse;
-import io.swagger.annotations.ApiResponses;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.PageRequest;
-import org.springframework.data.domain.Pageable;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 

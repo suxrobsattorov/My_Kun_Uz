@@ -1,12 +1,11 @@
 package com.company.service;
 
+import com.company.dto.ProfileDTO;
 import com.company.dto.filterDTO.ProfileFilterDTO;
+import com.company.entity.ProfileEntity;
 import com.company.exception.ItemNotFoundException;
 import com.company.repository.ProfileRepository;
-import com.company.dto.ProfileDTO;
-import com.company.entity.ProfileEntity;
 import com.company.repository.custom.ProfileCustomRepository;
-import com.company.spec.ProfileSpecification;
 import org.apache.commons.codec.digest.DigestUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.*;
